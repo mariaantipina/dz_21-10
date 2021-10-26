@@ -15,7 +15,7 @@ int main(void)
     long long a;
     int digit = 0;
 
-    std::cout << "ââåäèòå ÷èñëî â äâîè÷íîé ñèñòåìå: ";
+    std::cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ð´Ð²Ð¾Ð¸Ñ‡Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ: ";
     std::cin >> a;
     dva(a, 0, &digit);
     std::cout << digit << std::endl;
